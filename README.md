@@ -11,3 +11,10 @@ WHERE replacement_cost BETWEEN 12.99 AND 16.99;
 WHERE first_name IN ('Penelope', 'Nick', 'Ed');
 
 2#<img width="960" alt="2" src="https://user-images.githubusercontent.com/129968939/230355864-fd572d6f-289f-444d-85f4-eaed14084025.png">
+
+3#SORU - film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99, 2.99, 4.99 VE replacement_cost 12.99, 15.99, 28.99 olma koşullarıyla sıralayınız. ( IN operatörünü kullanınız.)
+
+3#CEVAP - SELECT * FROM film
+WHERE (rental_rate IN (0.99, 2.99, 4.99)) AND (replacement_cost IN (12.99, 15.99, 28.99) )
+
+3#<img width="960" alt="3" src="https://user-images.githubusercontent.com/129968939/230431956-8e412e56-c977-4a08-946c-fa13f1efaad5.png">
